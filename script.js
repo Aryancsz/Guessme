@@ -20,7 +20,7 @@ document.querySelector('.check').addEventListener('click', function () {
     document.querySelector('.message').textContent = 'No Number';
   } else if (guess === seacretNumber) {
     document.querySelector('.message').textContent =
-      'Poooooooojjaaaaaa  YOU WON Good Api' ;
+      'Whoooola YOU WON' ;
 
     if (score > highScore) {
       highScore = score;
